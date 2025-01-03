@@ -21,12 +21,10 @@ Place it in the project folder and unzip it
 
 | Classifier                        | 5-Fold Balanced Accuracy |
 | --------------------------------- | ------------------------ |
-| Content Linear Softmax            | 76.27                    |
 | Neural Network with 3 dense layer | 85.73                    |
 | Neural Network with 5 dense layer | 85.63                    |
 | 1D-CNN with 2conv 1fc layer       | 87.13                    |
 | CNN with 5conv layer              | 87.16                    |
-| Random Forest                     | 80.09                    |
 
 
 
