@@ -89,7 +89,7 @@ def make_value2index(attacks):
     return d
 
 
-# normalization
+# normalization: Features are normalized to have a mean close to zero and comparable variations.
 def normalize(data):
         data = data.astype(np.float32)
        
