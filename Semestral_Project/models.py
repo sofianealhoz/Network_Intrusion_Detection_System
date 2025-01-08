@@ -147,7 +147,7 @@ class Net3(nn.Module):
 
 class Net5(nn.Module):
     """
-    A neural network model with 4 fully connected layers, using batch normalization and dropout for regularization.
+    A neural network model with 5 fully connected layers, using batch normalization and dropout for regularization.
 
     Args:
     - input_dim (int): the number of input features
@@ -157,7 +157,7 @@ class Net5(nn.Module):
     Attributes:
     - input_dim (int): the number of input features
     - num_classes (int): the number of output classes
-    - model (nn.Sequential): the neural network architecture consisting of 4 fully connected layers
+    - model (nn.Sequential): the neural network architecture consisting of 5 fully connected layers
     """
     def __init__(self,input_dim,num_classes,device):
         super(Net5, self).__init__()
