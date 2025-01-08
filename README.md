@@ -3,7 +3,7 @@
 ## Network Intrusion Detection
 
 
-##Introduction
+## Introduction
 
 This project aims to implement and evaluate the accuracy of different machine learning models for network flow classification in an Intrusion Detection System (NIDS).
 
@@ -23,7 +23,7 @@ We use K-Fold Cross-Validation to assess model performance and fine-tune hyperpa
 📁 `MachineLearningCVE` → Folder containing the dataset files 
 
 
-### Installation & Requirements
+## Installation & Requirements
 
 📌 **Required Environment**  
 - Python **3.8+**  
