@@ -7,7 +7,12 @@
 
 This project aims to implement and evaluate the accuracy of different machine learning models for network flow classification in an Intrusion Detection System (NIDS).
 
-Models tested: **Perceptron**, **NN3**, **NN5**, **CNN2**, and **CNN5**. We use **K-Fold Cross-Validation** to assess model performance and fine-tune hyperparameters.
+Models tested: 
+- **Perceptron**
+- **NN3**
+- **NN5**
+- **CNN2**
+- **CNN5**
 
 
 We use K-Fold Cross-Validation to assess model performance and fine-tune hyperparameters.
