@@ -15,7 +15,7 @@ Models tested:
 - **CNN5**
 
 
-We use K-Fold Cross-Validation to assess model performance and fine-tune hyperparameters.
+I used K-Fold Cross-Validation to assess model performance and fine-tune hyperparameters.
 
 ## File Structure
 
