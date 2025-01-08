@@ -7,30 +7,29 @@
 
 This project aims to implement and evaluate the accuracy of different machine learning models for network flow classification in an Intrusion Detection System (NIDS).
 
-The models tested include:
-	•	Perceptron
-	•	NN3
-	•	NN5
-	•	CNN2
-	•	CNN5
+Models tested: **Perceptron**, **NN3**, **NN5**, **CNN2**, and **CNN5**. We use **K-Fold Cross-Validation** to assess model performance and fine-tune hyperparameters.
+
 
 We use K-Fold Cross-Validation to assess model performance and fine-tune hyperparameters.
 
 ## File Structure
-•	📜 models.py → Defines the Perceptron, CNN, and Neural Network models
-•	📜 preprocessing.py → Handles data preprocessing (normalization, balancing, etc.)
-•	📓 cnn.ipynb → Training and evaluation of CNN models
-•	📓 nn.ipynb → Training and evaluation of Neural Networks
-•	📓 perceptron.ipynb → Training and evaluation of Perceptron model
-•	📓 kfold_eval.ipynb → Performs K-Fold Cross-Validation
-•	📁 MachineLearningCVE → Folder containing the dataset files
+
+📜 `models.py` → Defines the Perceptron, CNN, and Neural Network models  
+📜 `preprocessing.py` → Handles data preprocessing (normalization, balancing, etc.)  
+📓 `cnn.ipynb` → Training and evaluation of CNN models  
+📓 `nn.ipynb` → Training and evaluation of Neural Networks  
+📓 `perceptron.ipynb` → Training and evaluation of Perceptron model  
+📓 `kfold_eval.ipynb` → Performs K-Fold Cross-Validation  
+📁 `MachineLearningCVE` → Folder containing the dataset files 
 
 
-## Installation & Requirements
+### Installation & Requirements
 
-📌 Required Environment
-	•	Python 3.8+
-	•	Required libraries: pip install torch scikit-learn numpy pandas matplotlib
+📌 **Required Environment**  
+- Python **3.8+**  
+- Required libraries:  
+  ```bash
+  pip install torch scikit-learn numpy pandas matplotlib
 
 Download the dataset file: MachineLearningCSV.zip from:
 
@@ -44,8 +43,8 @@ It is performed individually for each model within its respective `.ipynb` file.
 In the appropriate cell put the hyperparameters you want to test:
 
 
-learning_rates = [1e-4,1e-2,1e-0]
-regularizations = [1e-6,1e-4,1e-2]
+learning_rates = [1e-4, 1e-2, 1e-0]  
+regularizations = [1e-6, 1e-4, 1e-2]
 
 Then if you run the notebook you will get the best hyperparameters within that range and a plot that represent it.
 
@@ -58,6 +57,7 @@ Specify the hyperparameters that you determined during the tuning process in the
 
 
 This is an exemple of results I finaly got:
+
 | Classifier                        | 5-Fold Balanced Accuracy |
 | --------------------------------- | ------------------------ |
 | Perceptron                        | 76.27                    |
