@@ -35,7 +35,7 @@ I used K-Fold Cross-Validation to assess model performance and fine-tune hyperpa
 - Python **3.8+**  
 - Required libraries:  
   ```bash
-  pip install torch scikit-learn numpy pandas matplotlib
+  pip install torch scikit-learn numpy pandas matplotlib tensorboard enum34
 
 Download the dataset file: MachineLearningCSV.zip from:
 
