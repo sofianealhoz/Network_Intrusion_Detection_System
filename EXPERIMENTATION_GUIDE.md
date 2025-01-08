@@ -2,6 +2,7 @@
 
 ## Network Intrusion Detection
 
+My blog-post about this project: https://medium.com/@sofiane.alhoz/network-intrusion-detection-22607082d4b2
 
 ## Introduction
 
