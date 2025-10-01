@@ -20,18 +20,18 @@ I used K-Fold Cross-Validation to assess model performance and fine-tune hyperpa
 
 ## File Structure
 
-📜 `models.py` → Defines the Perceptron, CNN, and Neural Network models  
-📜 `preprocessing.py` → Handles data preprocessing (normalization, balancing, etc.)  
-📓 `cnn.ipynb` → Training and evaluation of CNN models  
-📓 `nn.ipynb` → Training and evaluation of Neural Networks  
-📓 `perceptron.ipynb` → Training and evaluation of Perceptron model  
-📓 `kfold_eval.ipynb` → Performs K-Fold Cross-Validation  
-📁 `MachineLearningCVE` → Folder containing the dataset files 
+ `models.py` → Defines the Perceptron, CNN, and Neural Network models  
+ `preprocessing.py` → Handles data preprocessing (normalization, balancing, etc.)  
+ `cnn.ipynb` → Training and evaluation of CNN models  
+ `nn.ipynb` → Training and evaluation of Neural Networks  
+ `perceptron.ipynb` → Training and evaluation of Perceptron model  
+ `kfold_eval.ipynb` → Performs K-Fold Cross-Validation  
+ `MachineLearningCVE` → Folder containing the dataset files 
 
 
 ## Installation & Requirements
 
-📌 **Required Environment**  
+ **Required Environment**  
 - Python **3.8+**  
 - Required libraries:  
   ```bash
